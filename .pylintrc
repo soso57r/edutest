@@ -1,0 +1,14 @@
+[MESSAGES CONTROL]
+disable=logging-fstring-interpolation,
+        missing-docstring,
+        duplicate-code
+
+[FORMAT]
+max-line-length=150
+
+[BASIC]
+good-names=i, e, f, m, q1, q2, q3, nb, k, v, at, db, tf, id
+
+[REPORTS]
+output-format=colorized
+
