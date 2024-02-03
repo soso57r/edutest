@@ -12,7 +12,7 @@ To test, create an environment and load it, then:
 pip install -r requirements.txt
 pip install -e .
 pytest # to run tests
-pylint && flake8 # to lint
+pylint src && flake8 # to lint
 bandit -r src # to run security tests
 ```
 
