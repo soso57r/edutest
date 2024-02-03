@@ -19,3 +19,8 @@ def increase():
         'prev': current_counter,
         'new': counter
     }, 201
+
+@app.route('/info')
+def info():
+    global counter
+    return {'counter': counter}
