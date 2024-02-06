@@ -2,5 +2,5 @@ FROM python:3.11
 
 WORKDIR /src
 COPY ..
-pip install -r requirements.txt
-pip install -e .
+RUN pip install -r requirements.txt
+RUN pip install -e .
